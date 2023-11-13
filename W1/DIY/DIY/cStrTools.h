@@ -1,0 +1,65 @@
+/*
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+Student : Kiarash Kia
+Student ID: 108688235
+Email: kkia2@myseneca.ca
+Workshop 1 - DIY
+Date : 9/18/2023
+ */
+
+
+#define _CRT_SECURE_NO_WARNINGS	
+
+ // Compilation Safeguards
+#ifndef SDDS_cStrTools_H 
+#define SDDS_cStrTools_H
+
+
+namespace sdds {
+
+
+	// returns the lower case value of a character
+	char toLower(char ch);
+
+
+	// compares s1 and s2 cStrings and returns:
+	   // > 0 if s1 > s2
+	   // < 0 if s1 < s3
+	   // == 0 if s1 == s2
+	int strCmp(const char* s1, const char* s2);
+
+
+	// compares s1 and s2 cStrings upto len characters and returns:
+	   // > 0 if s1 > s2
+	   // < 0 if s1 < s3
+	   // == 0 if s1 == s2
+	int strnCmp(const char* s1, const char* s2, int len);
+
+
+	// copies src to des
+	void strCpy(char* des, const char* src);
+
+
+	// returns the length of str
+	int strLen(const char* str);
+
+
+	// if "find" is found in "str" it will return the addres of the match
+			// if not found it will returns nullptr (zero)
+	const char* strStr(const char* str, const char* find);
+
+
+	// returns true if ch is alphabetical
+	int isAlpha(char ch);
+
+
+	// returns true if ch is a whitespace character
+	int isSpace(char ch);
+
+
+	// removes the non-alphabetic characters from the begining and end of a word
+	void trim(char word[]);
+
+
+}
+#endif

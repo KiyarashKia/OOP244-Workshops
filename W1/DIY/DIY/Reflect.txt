@@ -1,0 +1,27 @@
+/*
+Reflection
+Student : Kiarash Kia
+Student ID: 108688235
+Email: kkia2@myseneca.ca
+Workshop 1
+Date : 9/17/2023
+ */
+
+This workshop was quite a nice but challenging review of IPC from some aspects. Moreover, it was supposed to make the learner familiar with the syntax of C++ as well
+
+the first part only needed to identify proper parts for different modules and header files and was not a problem to me. I just needed to read and understand the functions
+to be able to properly use them considering the functionality of the program.
+
+However, the second one had some challenging points for me in its details. Understanding where and how to start and grasping the purpose of each function
+before using them. I did my best to put parts in their right place. For example I am still confused if I had to make the whole functionality inside the mandatory, provided function. But I did.
+
+
+I am aware of using Macros as well that I probably missed in my work. It happened because lack of time as I was trying to do testing as well to be sure everything is going well.
+For example, I found that removing non-alphabetic and whitespaces (both leading and trailing) is not in the execution test. But it took time for me to do it as well to make a quality work that
+has the ability to handle some circumstances. I had the trim() function however I had to modify it to do trimming for space and non alphabet characters at the same time.
+After that I faced a logical problem that took long for me to fix. as "!" is considered non alphabetic, and as I used trim() before the validation, actually nothing was going in the loop, 
+and so it caused unexpected behaviour. Therefore I spent time to search and understand what is the issue. I found that when I remove trim() function, it works well. Thus I noticed that something should
+happen in the function. At last, I modified the trim () function again to make an exception for entering "!" by the user. And it worked!
+
+Rest of it was quite straightforward and provided functions helped me in addition to the review I had on IPC notes and searching a bit about functions and libraries. Also testing and facing failures as always made me think how to break and solve problems one by one.
+ 
