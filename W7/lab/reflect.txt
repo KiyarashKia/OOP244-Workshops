@@ -1,0 +1,16 @@
+/*
+Reflection WS7
+Student : Kiarash Kia
+Student ID: 108688235
+Email: kkia2@myseneca.ca
+Workshop 7
+Date : 11/13/2023
+ */
+
+In workshop 7, I can say that I faced some challenges that took time to go through their details. One was implementing
+Pack constructor without using initializer list. Firstly I failed to implement that so I started searching to see what
+would the issue be. Then I concluded that using initializer could fix the issue as I could directly initialize the base class' objects. As the usage of initializer list is still not very clear to me, so I had two choice, To make it clear in my mind or not to use it. I preferred to do that after the workshop so I was struggling with doing it without using the initializer list. That made me fail many times as I was struggling with not only one class anymore! As the objctive of the workshop was to get familiar with derived classes, so I had to figure it out.
+The other challenge I had was for the read function of istream. Fortunately I could figure it out as following the
+instructions and usage of some methods of standard library of C++. To me the most challenging parts are the ones that
+we should consider the combination of conditions to check which makes me feel lost most of the times. I can say that 
+rest of it was not a big deal and was fairly challenging.
