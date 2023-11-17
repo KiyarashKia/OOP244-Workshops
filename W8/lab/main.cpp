@@ -10,6 +10,7 @@
 // -----------------------------------------------------------
 // Name                 Date            Reason
 ***********************************************************************/
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <fstream>
 #include "Shape.h"

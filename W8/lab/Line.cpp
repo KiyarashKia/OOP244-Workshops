@@ -1,4 +1,4 @@
-#define _CRT_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 
 #include <iostream>
 #include "Line.h"
@@ -29,7 +29,6 @@ namespace sdds {
 			{
 				os << "=";
 			}
-			os << endl;
 		}
 	}
 

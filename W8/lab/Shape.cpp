@@ -5,6 +5,8 @@
 using namespace std;
 namespace sdds {
 
+	Shape::~Shape() {}
+
 	ostream& operator<<(ostream& os, const Shape& shape) {
 		shape.draw(os);
 		return os;
