@@ -1,0 +1,13 @@
+/*
+Reflection WS8
+Student : Kiarash Kia
+Student ID: 108688235
+Email: kkia2@myseneca.ca
+Workshop 8
+Date : 11/17/2023
+ */
+
+Workshop 8 in my opinion was pretty straightforward. While having not a complex or new kind of logic that whatever we did in the past, It was supposed to show the functionality of virtual methods.
+From creating abstract classes like Shape and LblShape to implementation of program's behaviour using virtual functions, we were supposed to understand the concepts of abstract classes and concrete classes. To be more specific, I could see that for example in Shape class we did not provide any implementation for its pure virtual functions. According to course notes, such class is called a pure interface. On the other hand we had to define concrete classes as well. for example one of them was Line which had the purpose of drawing the labelled line. In such classes we are able to create objects as it is a fully defined class which can derive from abstract classes as well. As I was searching about both to understand better, I found the purpose of each as below:
+Abstract: To provide a commin interface and shared functionality for derived classes. And to enforce certain methods to be implemented by all derived classes.
+Concrete: To provide specific implementation of all its behavior and to create instances with full functionality.
