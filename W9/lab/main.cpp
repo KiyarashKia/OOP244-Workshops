@@ -15,6 +15,16 @@
 // Fardad          2023-11-21       added namespace sdds
 /////////////////////////////////////////////////////////////////
 ***********************************************************************/
+/*
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+Student : Kiarash Kia
+Student ID: 108688235
+Email: kkia2@myseneca.ca
+Workshop 9 - Lab - main.cpp
+Date : 11/25/2023
+ */
+
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include "Student.h"
 #include "Graduate.h"
