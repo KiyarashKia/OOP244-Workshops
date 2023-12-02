@@ -59,5 +59,6 @@ namespace sdds {
 	}
 
 
-#endif SDDS_SELECTION_H
+#endif // SDDS_SELECTION_H
+
 		
